@@ -1,19 +1,26 @@
 {
-    "name": "template arcade project-name",
+    "name": "template arcade project-farmgame",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "animation": "*"
     },
     "files": [
         "main.ts",
         "README.md",
-        "assets.json"
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "Player.ts",
+        "Attachment.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.4.28",
+        "target": "1.4.35",
         "targetId": "arcade"
     },
     "supportedTargets": [
